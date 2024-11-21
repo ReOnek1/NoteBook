@@ -51,4 +51,4 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 ![[page-cache-diff.png]]
 
 
-![[../../pic/Pasted image 20241121144119.png]]
+[[../../pic/Pasted image 20241121144119.png]]
