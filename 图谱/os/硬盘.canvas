@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"6c63ca9660dfa721","type":"text","text":"硬盘","x":-642,"y":-127,"width":117,"height":60},
+		{"id":"626d62e4967c79c6","type":"text","text":"[[Note/文件系统/base know]]","x":-401,"y":-392,"width":143,"height":60},
+		{"id":"3c4b96336447255c","type":"text","text":"[[Note/文件系统/场景]]","x":-395,"y":108,"width":155,"height":60},
+		{"id":"c9fe5fb1e7d76d57","type":"text","text":"[[Note/文件系统/base know#磁盘IO耗时]]","x":-157,"y":-775,"width":250,"height":60},
+		{"id":"8cdcd6e2f70ee5ca","x":-94,"y":-697,"width":250,"height":60,"type":"text","text":"[[Note/文件系统/base know#操作系统如何降低随机读写的性能]]"},
+		{"id":"f11eb7cd8dd68a2d","x":-25,"y":-614,"width":250,"height":60,"type":"text","text":"[[Note/文件系统/base know#文件系统]]"},
+		{"id":"79fa5e255c178253","x":36,"y":-534,"width":250,"height":60,"type":"text","text":"[[Note/文件系统/base know#文件和目录创建所需资源]]"},
+		{"id":"dc60c02fd48e1dd3","x":-89,"y":-187,"width":250,"height":60,"type":"text","text":"[[Note/文件系统/场景#压缩文件夹后为何传输速度变快]]"}
+	],
+	"edges":[
+		{"id":"be1f4e9e8a0eccef","fromNode":"6c63ca9660dfa721","fromSide":"right","toNode":"626d62e4967c79c6","toSide":"left"},
+		{"id":"0e66e3dff8d1cf7e","fromNode":"6c63ca9660dfa721","fromSide":"right","toNode":"3c4b96336447255c","toSide":"left"},
+		{"id":"941e5174cb49ffef","fromNode":"626d62e4967c79c6","fromSide":"right","toNode":"c9fe5fb1e7d76d57","toSide":"left"},
+		{"id":"6779ec36e46b986f","fromNode":"626d62e4967c79c6","fromSide":"right","toNode":"8cdcd6e2f70ee5ca","toSide":"left"},
+		{"id":"32f2358532ea57fd","fromNode":"626d62e4967c79c6","fromSide":"right","toNode":"f11eb7cd8dd68a2d","toSide":"left"},
+		{"id":"477660707d4ebc03","fromNode":"626d62e4967c79c6","fromSide":"right","toNode":"79fa5e255c178253","toSide":"left"},
+		{"id":"82eaf17404081a23","fromNode":"3c4b96336447255c","fromSide":"right","toNode":"dc60c02fd48e1dd3","toSide":"left"}
+	]
+}

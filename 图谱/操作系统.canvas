@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"dc14ddd68917636a","type":"text","text":"操作系统","x":-422,"y":64,"width":131,"height":60},
+		{"id":"05f534ea1659cb7a","type":"text","text":"[[硬盘.canvas|硬盘]]","x":-178,"y":351,"width":141,"height":64},
+		{"id":"bdee71408a74fae6","type":"text","text":"CPU","x":-182,"y":-18,"width":108,"height":50},
+		{"id":"ee74e6b895bc905b","type":"text","text":"网络","x":-180,"y":157,"width":107,"height":60},
+		{"id":"212624d828ad25df","type":"text","text":"内存","x":-182,"y":-232,"width":112,"height":60},
+		{"id":"88166ae9aed3755b","type":"text","text":"[[Note/文件系统/base know]]","x":-12,"y":341,"width":250,"height":60},
+		{"id":"cb317f3c6b9bd14f","type":"text","text":"[[Note/文件系统/场景]]","x":-11,"y":431,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"f7b13451cbbaace7","fromNode":"dc14ddd68917636a","fromSide":"bottom","toNode":"05f534ea1659cb7a","toSide":"left"},
+		{"id":"d70609ef261f0787","fromNode":"dc14ddd68917636a","fromSide":"right","toNode":"ee74e6b895bc905b","toSide":"left"},
+		{"id":"367065e47414f0e7","fromNode":"dc14ddd68917636a","fromSide":"right","toNode":"bdee71408a74fae6","toSide":"left"},
+		{"id":"185aac0b616f3bff","fromNode":"dc14ddd68917636a","fromSide":"top","toNode":"212624d828ad25df","toSide":"left"},
+		{"id":"89f893e1cd69d9e8","fromNode":"05f534ea1659cb7a","fromSide":"right","toNode":"88166ae9aed3755b","toSide":"left"},
+		{"id":"d9462144f4b6dcc0","fromNode":"05f534ea1659cb7a","fromSide":"right","toNode":"cb317f3c6b9bd14f","toSide":"left"}
+	]
+}

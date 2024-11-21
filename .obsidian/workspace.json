@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "ffd5c5f63793effe",
+    "type": "split",
+    "children": [
+      {
+        "id": "a9c627ca216aa07b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9af362ef7904f25e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Note/内存/page cache.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "209dcb91523af25f",
+    "type": "split",
+    "children": [
+      {
+        "id": "f26cd2019bb10018",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e4ba0b0df50a3b1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d59f98508a763dbc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#linux",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "01be56c899859320",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 330.5
+  },
+  "right": {
+    "id": "883699a2382e28d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "875969c87e17ecf2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "507c27f41dfa2ff3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Note/内存/page cache.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "768a83dc3810f3e9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Note/内存/page cache.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "8383190209834359",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "f490a39c4603af26",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Note/内存/page cache.md"
+              }
+            }
+          },
+          {
+            "id": "3ddf475e5502e048",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "65229f450f2d968a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 227.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-projects:Open projects": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:创建新看板": false
+    }
+  },
+  "active": "9af362ef7904f25e",
+  "lastOpenFiles": [
+    "Note/内存/堆栈.md",
+    "Note/内存/物理页的申请.md",
+    "Note/内存/page cache.md",
+    "Note/内存/numa.md",
+    "Note/文件系统/读取一个字节的文件是否会导致磁盘io.md",
+    "Note/文件系统/压缩文件夹后为何传输速度变快.md",
+    "Note/文件系统/base know.md",
+    "Note/内存/进程间如何传递数据.md",
+    "pic/page cache.png",
+    "pic/swapswapcache.png",
+    "pic/pagecache-meminfo.png",
+    "README.md",
+    "常用命令.md",
+    "Note/内存/场景.md",
+    "Note/network/linux网络/no route to host.md",
+    "study plan.md",
+    "Note/network/linux网络/tcp三次握手.md",
+    "leetcode/数组.md",
+    "Note/文件系统/write一个字节后何时发起写磁盘io.md",
+    "Note/文件系统/如果发生磁盘io,磁盘io是多大.md",
+    "Note/文件系统/场景.md",
+    "Excalidraw/Drawing 2024-09-23 14.22.57.excalidraw.md",
+    "Excalidraw/Drawing 2024-09-18 16.02.16.excalidraw.md",
+    "Note/k8s/apiserver/informer.md",
+    "Note/k8s/apiserver/apiserver的内存消耗.md",
+    "Note/k8s/apiserver/apiserver.md",
+    "Note/k8s/apiserver/与etcd的连接.md",
+    "Note/k8s/apiserver/与client-go的连接.md",
+    "pic/informer1.png",
+    "pic/Pasted image 20241031103924.png",
+    "pic/Pasted image 20241031103911.png",
+    "图谱/操作系统.canvas",
+    "图谱/k8s.canvas",
+    "图谱/os/硬盘.canvas",
+    "pic/lxcfs.png",
+    "pic/共享内存.png",
+    "Note/grpc",
+    "Note/k8s/apiserver",
+    "Book-Read/Learning-eBPF - Full book.pdf",
+    "Book-Read/一些非必要的资料.zip",
+    "Book-Read/1、Kubernetes网络权威指南：基础、原理与实践.pdf",
+    "Book-Read/labuladong的算法秘籍V3.3.pdf",
+    "Book-Read/labuladong的刷题笔记V5.1.pdf",
+    "Book-Read/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf",
+    "Book-Read/深入理解Linux网络： 修炼底层内功，掌握高性能原理.pdf",
+    "Book-Read/码农翻身：用故事给技术加点料.pdf",
+    "pic/tcp三次握手.png",
+    "pic/linux IO栈.png",
+    "知识库/network/epoll.canvas",
+    "未命名.canvas",
+    "知识图谱/网络.canvas",
+    "知识图谱/work note.canvas",
+    "Excalidraw/未命名.canvas"
+  ]
+}
