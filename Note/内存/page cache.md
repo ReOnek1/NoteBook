@@ -4,8 +4,11 @@ tags:
   - pagecache
   - 内存
 ---
-
-
+- [[#相关概念|相关概念]]
+	- [[#相关概念#`Buffers`与`Cached`的区别|`Buffers`与`Cached`的区别]]
+	- [[#相关概念#Active(file)+Inactive(file)|Active(file)+Inactive(file)]]
+	- [[#相关概念#SwapCached|SwapCached]]
+- [[#Page Cache 的主要产生来源|Page Cache 的主要产生来源]]
 
 ![[page cache.png]]
 ```
