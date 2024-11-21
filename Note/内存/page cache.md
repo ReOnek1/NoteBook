@@ -43,10 +43,10 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 ### Page Cache 的主要产生来源
 
 - ==Buffered I/O（标准I/O）==
-	- 需要先复制到userspace page,然后再复制到page cache
+	- 需要先写到用户缓冲区,然后再复制到page cache
   
 - ==Memory-Mapped I/O（存储映射I/O）==
-	- 直接映射
+	- 直接映射到page cache
 
 ![[page-cache-diff.png]]
 
