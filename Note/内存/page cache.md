@@ -53,4 +53,4 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 
 ![[page-cache-diff.png]]
 
-
+sdaddadad
