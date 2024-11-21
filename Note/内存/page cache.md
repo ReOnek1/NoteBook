@@ -46,6 +46,7 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 	- 需要先复制到userspace page,然后再复制到page cache
   
 - ==Memory-Mapped I/O（存储映射I/O）==
+	- 直接映射
 
 ![[page-cache-diff.png]]
 
