@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 330.5,
+    "collapsed": true
   },
   "right": {
     "id": "883699a2382e28d4",
@@ -173,11 +174,11 @@
   },
   "active": "9af362ef7904f25e",
   "lastOpenFiles": [
+    "Note/内存/物理页的申请.md",
+    "Note/内存/page cache.md",
     "pic/Pasted image 20241121144119.png",
     "pic/page-cache-diff.png",
-    "Note/内存/page cache.md",
     "Note/内存/堆栈.md",
-    "Note/内存/物理页的申请.md",
     "Note/内存/numa.md",
     "Note/文件系统/读取一个字节的文件是否会导致磁盘io.md",
     "Note/文件系统/压缩文件夹后为何传输速度变快.md",
@@ -221,7 +222,6 @@
     "Book-Read/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf",
     "Book-Read/深入理解Linux网络： 修炼底层内功，掌握高性能原理.pdf",
     "Book-Read/码农翻身：用故事给技术加点料.pdf",
-    "pic/tcp三次握手.png",
     "知识库/network/epoll.canvas",
     "未命名.canvas",
     "知识图谱/网络.canvas",
