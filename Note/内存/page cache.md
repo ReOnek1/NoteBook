@@ -49,4 +49,6 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 
 ![[page-cache-diff.png]]
 
+#### 涉及到的内核机制
 
+1. 
