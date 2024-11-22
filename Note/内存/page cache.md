@@ -53,7 +53,7 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 
 1. 用户往用户缓冲区写数据（userspace buffer）
 2. 用户缓冲区copy到内核缓冲区，发生[[#缺页中断]]
-3. 将数据从内核缓冲区
+3. 将数据从内核缓冲区copydao
 
 
 ### 缺页中断
