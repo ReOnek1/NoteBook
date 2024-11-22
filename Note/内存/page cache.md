@@ -52,4 +52,6 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 #### 涉及到的内核机制
 
 1. 用户往用户缓冲区写数据（userspace buffer）
-2. 用户缓冲区copy到nei
+2. 用户缓冲区copy到内核缓冲区，发生
+
+
