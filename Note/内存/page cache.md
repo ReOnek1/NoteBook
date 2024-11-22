@@ -51,4 +51,4 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 
 #### 涉及到的内核机制
 
-1. 
+1. 用户wang
