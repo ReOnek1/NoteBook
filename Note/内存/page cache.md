@@ -52,6 +52,31 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 #### 涉及到的内核机制
 
 1. 用户往用户缓冲区写数据（userspace buffer）
-2. 用户缓冲区copy到内核缓冲区，发生
+2. 用户缓冲区copy到内核缓冲区，发生[[#]]
 
+
+### 缺页中断
+	1. 根据新的 address 查找对应的 vma  
+		` vma = find_vma(mm, address);`
+	2. 如果找到的 vma 的开始地址比 address 小 ，那么就不调用expand_stack了，直接调用<font color=#2485E3>handle_mm_fault</font>来完成真正的内存申请 
+	3. handle_mm_fault --->
+			`Linux 是用四级页表来管理虚拟地址空间到物理内存之间的映射管理的。所以在实际申请物理页面之前，需要先 check 一遍需要的每一级页表项是否存在，不存在的话需要申请。`
+	1. handle_pte_fault --->
+		1. 文件映射缺页处理
+		2. swap缺页处理
+		3. 写时复制缺页处理
+		4. 匿名映射页处理
+	2. do_anonymous_page -->
+		1. `调用 alloc_zeroed_user_highpage_movable 分配一个可移动的匿名物理页出来。在底层会调用到伙伴系统的 alloc_pages 进行实际物理页面的分配。
+		2. `内核是用伙伴系统来管理所有的物理内存页的。其它模块需要物理页的时候都会调用伙伴系统对外提供的函数来申请物理内存
+‌‌‌‌　　![[缺页中断.png]]
+
+‌‌‌‌　　
+### 进程创建的过程中，如何申请pid
+‌‌‌‌　　在进程创建(fork)的过程中，有一系列的copy过程[源码](https://elixir.bootlin.com/linux/v6.10/source/kernel/fork.c#L2375)
+‌‌‌‌　　其中对于pid的申请主要有两个注意点：
+	- 只要是申请pid失败都是返回“内存无法分配”的错误（ENOMEM）
+		- pid不够了
+		- 申请失败
+	- 会通过for循环同时申请多个pid（一个是在容器ns里面的pid，另外一个是在根目录下的）[源码](https://elixir.bootlin.com/linux/v6.10/source/kernel/pid.c#L166)
 
