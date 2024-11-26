@@ -41,10 +41,10 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 
 ### Page Cache 的主要产生来源
 
-- ==Buffered I/O（标准I/O）==
+- Buffered I/O（标准I/O）
 	- 需要先写到用户缓冲区,然后再复制到page cache
   
-- ==Memory-Mapped I/O（存储映射I/O）==
+- Memory-Mapped I/O（存储映射I/O）
 	- 直接映射到page cache,用户直接读写page cache
 
 ![[page-cache-diff.png]]
@@ -56,6 +56,7 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 	1. 发生[[#缺页中断]]  >>> 分配Page
 	2. 将数据copy到内核缓冲区(page cache) >>> **Dirty Page**
 	3. 将脏页同步到磁盘(==脏页回写==) >>> **Clean Page**
+
 ![[../../pic/Pasted image 20241126102944.png]]
 
 
