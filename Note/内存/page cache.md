@@ -95,7 +95,10 @@ nr_writeback 2 // 多少脏页正在回写到磁盘
 -  Inactive To Active
 	  应用程序多次读写
 -  Active To Inactive
-	  系统内存压力增大，执行页回收机制，将长时间未访问的Active页移动到Inactivekie
+	  系统内存压力增大，执行页回收机制，将长时间未访问的Active页移动到Inactive列表中
+
+#### 系统中有哪些控制项可以影响 Inactive 与 Active Page Cache 的大小或者二者的比例
+
 
 
 
