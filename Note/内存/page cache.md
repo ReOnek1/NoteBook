@@ -64,7 +64,7 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 
 ```
 cat /proc/vmstat | egrep "dirty|writeback" 
-nr_dirty 40 
+nr_dirty 40   
 nr_writeback 2
 ```
 ![[../../pic/Pasted image 20241126102944.png]]
