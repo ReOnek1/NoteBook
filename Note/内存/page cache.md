@@ -85,6 +85,7 @@ nr_writeback 2 // 多少脏页正在回写到磁盘
 - %vmeff: pgsteal/(pgscank+pgscand), 回收效率，越接近100说明系统越安全，越接近0说明系统内存压力越大。
 ![[../../pic/Pasted image 20241126170508.png]]
 
+### 相关问题
 
 
 
