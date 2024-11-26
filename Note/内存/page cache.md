@@ -70,6 +70,8 @@ nr_writeback 2 // 多少脏页正在回写到磁盘
 ![[../../pic/Pasted image 20241126102944.png]]
 
 ### Page Cache的回收机制
+![[../../pic/Pasted image 20241126163121.png]]
+
 
 
 ### 缺页中断
