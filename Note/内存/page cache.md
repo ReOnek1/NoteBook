@@ -92,6 +92,9 @@ nr_writeback 2 // 多少脏页正在回写到磁盘
 
 #### Active和Inactive之间的转换
 
+-  Inactive To Active
+	  应用程序多次读
+-  Active To Inactive
 
 
 
