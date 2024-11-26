@@ -72,13 +72,17 @@ nr_writeback 2 // 多少脏页正在回写到磁盘
 ### Page Cache的回收机制
 ![[../../pic/Pasted image 20241126163121.png]]
 
-主要的回收方式：
+##### 主要的回收方式：
 
 1. **后台回收**
    内存紧张时，由kswapd守护进程回收不活跃的页
 2. **直接回收**
    当内存非常紧张且kswapd无法足够快速释放内存时，进程会直接进行内存页扫描和回收 ------ <u>整个系统内所有进程</u>
-
+##### 主要关注的指标
+- pgscank/s : kswapd(后台回收线程)每秒扫描的page个数。
+- pgscand/s: Application在内存申请过程中每秒直接扫描的page个数。
+- pgsteal/s: 扫描的page中**每秒被回收的个数**。
+- %vmeff: pgsteal/(pgscank+pgscand), 回收效率，越接近100说明系统越安全，越接近0说明系统内存压力越大。
 ![[../../pic/Pasted image 20241126170508.png]]
 ### 缺页中断
 	1. 根据新的 address 查找对应的 vma  
