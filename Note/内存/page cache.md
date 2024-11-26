@@ -56,6 +56,7 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 	1. 发生[[#缺页中断]]  >>> 分配Page
 	2. 将数据copy到内核缓冲区(page cache) >>> **Dirty Page**
 	3. 将脏页同步到磁盘(==脏页回写==) >>> **Clean Page**
+![[../../pic/Pasted image 20241126102944.png]]
 
 
 ### 缺页中断
