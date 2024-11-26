@@ -86,6 +86,13 @@ nr_writeback 2 // 多少脏页正在回写到磁盘
 ![[../../pic/Pasted image 20241126170508.png]]
 
 
+
+
+
+
+
+
+
 ### 缺页中断
 	1. 根据新的 address 查找对应的 vma  
 		` vma = find_vma(mm, address);`
