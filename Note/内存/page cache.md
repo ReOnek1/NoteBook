@@ -72,7 +72,9 @@ nr_writeback 2 // 多少脏页正在回写到磁盘
 ### Page Cache的回收机制
 ![[../../pic/Pasted image 20241126163121.png]]
 
+主要的回收方式：
 
+1. 后踢
 
 ### 缺页中断
 	1. 根据新的 address 查找对应的 vma  
