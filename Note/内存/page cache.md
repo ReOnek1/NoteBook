@@ -99,7 +99,8 @@ nr_writeback 2 // 多少脏页正在回写到磁盘
 
 #### 系统中有哪些控制项可以影响 Inactive 与 Active Page Cache 的大小或者二者的比例
 
-##### `vm.swappines`
+#### vm.s
+
 
 
 
