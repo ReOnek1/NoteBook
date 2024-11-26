@@ -55,7 +55,7 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 2. 用户缓冲区copy到内核缓冲区，
 	1. 发生[[#缺页中断]]  >>> 分配Page
 	2. 将数据copy到内核缓冲区
-	3. 
+	3. 从内核缓冲区copy到page cache
 
 
 ### 缺页中断
