@@ -54,8 +54,8 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 1. 用户往用户缓冲区写数据（userspace buffer）
 2. 用户缓冲区copy到内核缓冲区，
 	1. 发生[[#缺页中断]]  >>> 分配Page
-	2. 将数据copy到内核缓冲区page cache >>> **Dirty Page**
-	3. 将脏页同步到磁盘(脏页回写)
+	2. 将数据copy到内核缓冲区(page cache) >>> **Dirty Page**
+	3. 将脏页同步到磁盘(==脏页回写==) >>> **Clean Page**
 
 
 ### 缺页中断
