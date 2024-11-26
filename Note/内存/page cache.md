@@ -86,10 +86,11 @@ nr_writeback 2 // 多少脏页正在回写到磁盘
 ![[../../pic/Pasted image 20241126170508.png]]
 
 ### 相关问题
-#### 1.为什么第一次读写某个文件，Page Cache 是 Inactive 的？
+#### 为什么第一次读写某个文件，Page Cache 是 Inactive 的？
 当第一次读取一个文件时，其数据会被加载到内存中，并存储在 Page Cache 的 Inactive 列表中。
 这个设计的目的是为了防止新加载的数据立即占据大量的活跃内存，可能导致系统之前已经缓存的数据被过早地淘汰掉。
 
+#### Active和Inactive之间的转换
 
 
 
