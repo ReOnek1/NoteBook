@@ -60,7 +60,8 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 
 1. 对于读操作产生的page cache，内容和磁盘内容一致，就是clean page
    
-2. 修改了page cache内容，和磁盘中的不一致，就是di
+2. 修改了page cache内容，和磁盘中的不一致，就是dirty page
+
 
 ![[../../pic/Pasted image 20241126102944.png]]
 
