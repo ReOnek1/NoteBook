@@ -57,7 +57,6 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 	2. 将数据copy到内核缓冲区
 
 
-
 ### 缺页中断
 	1. 根据新的 address 查找对应的 vma  
 		` vma = find_vma(mm, address);`
