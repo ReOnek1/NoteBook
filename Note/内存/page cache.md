@@ -65,7 +65,7 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 ```
 cat /proc/vmstat | egrep "dirty|writeback" 
 nr_dirty 40   // 积压了多少脏页
-nr_writeback 2 // 多少脏页zheng za
+nr_writeback 2 // 多少脏页正在回写到磁盘
 ```
 ![[../../pic/Pasted image 20241126102944.png]]
 
