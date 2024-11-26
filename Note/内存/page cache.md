@@ -74,11 +74,13 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 ‌‌‌‌　　![[缺页中断.png]]
 
 ‌‌‌‌　　
-### 进程创建的过程中，如何申请pid
-‌‌‌‌　　在进程创建(fork)的过程中，有一系列的copy过程[源码](https://elixir.bootlin.com/linux/v6.10/source/kernel/fork.c#L2375)
-‌‌‌‌　　其中对于pid的申请主要有两个注意点：
-	- 只要是申请pid失败都是返回“内存无法分配”的错误（ENOMEM）
-		- pid不够了
-		- 申请失败
-	- 会通过for循环同时申请多个pid（一个是在容器ns里面的pid，另外一个是在根目录下的）[源码](https://elixir.bootlin.com/linux/v6.10/source/kernel/pid.c#L166)
+
+> [!NOTE]
+> ### 进程创建的过程中，如何申请pid
+> ‌‌‌‌　　在进程创建(fork)的过程中，有一系列的copy过程[源码](https://elixir.bootlin.com/linux/v6.10/source/kernel/fork.c#L2375)
+> ‌‌‌‌　　其中对于pid的申请主要有两个注意点：
+> 	- 只要是申请pid失败都是返回“内存无法分配”的错误（ENOMEM）
+> 		- pid不够了
+> 		- 申请失败
+> 	- 会通过for循环同时申请多个pid（一个是在容器ns里面的pid，另外一个是在根目录下的）[源码](https://elixir.bootlin.com/linux/v6.10/source/kernel/pid.c#L166)
 
