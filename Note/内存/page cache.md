@@ -58,6 +58,7 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
 	3. 将脏页同步到磁盘(==脏页回写==) >>> **Clean Page**
 #### Clean Page 和 Dirty Page
 
+1. 对于读操作产生的page cache，内容和
 
 ![[../../pic/Pasted image 20241126102944.png]]
 
