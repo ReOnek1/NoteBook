@@ -62,7 +62,11 @@ Buffers + Cached + SwapCached = Active(file) + Inactive(file) + Shmem + SwapCach
    
 2. 修改了page cache内容，和磁盘中的不一致，就是dirty page
 
-
+```
+cat /proc/vmstat | egrep "dirty|writeback" 
+nr_dirty 40 
+nr_writeback 2
+```
 ![[../../pic/Pasted image 20241126102944.png]]
 
 
