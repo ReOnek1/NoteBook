@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/内存/page cache.md",
+                "file": "Note/network/linux网络/流量控制（TC）.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/内存/page cache.md",
+                "file": "Note/network/linux网络/流量控制（TC）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/内存/page cache.md",
+                "file": "Note/network/linux网络/流量控制（TC）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/内存/page cache.md"
+                "file": "Note/network/linux网络/流量控制（TC）.md"
               }
             }
           },
@@ -188,11 +188,13 @@
   },
   "active": "2edc90d69615c873",
   "lastOpenFiles": [
+    "Note/network/linux网络/tcp三次握手.md",
+    "Note/network/linux网络/流量控制（TC）.md",
+    "Note/内存/page cache.md",
     "pic/Pasted image 20241126170508.png",
     "pic/Pasted image 20241126163121.png",
     "pic/Pasted image 20241126102944.png",
     "Note/内存/物理页的申请.md",
-    "Note/内存/page cache.md",
     "pic/Pasted image 20241121144119.png",
     "pic/page-cache-diff.png",
     "Note/内存/堆栈.md",
@@ -209,7 +211,6 @@
     "Note/内存/场景.md",
     "Note/network/linux网络/no route to host.md",
     "study plan.md",
-    "Note/network/linux网络/tcp三次握手.md",
     "leetcode/数组.md",
     "Note/文件系统/write一个字节后何时发起写磁盘io.md",
     "Note/文件系统/如果发生磁盘io,磁盘io是多大.md",
@@ -223,7 +224,6 @@
     "Note/k8s/apiserver/与client-go的连接.md",
     "pic/informer1.png",
     "pic/Pasted image 20241031103924.png",
-    "pic/Pasted image 20241031103911.png",
     "图谱/操作系统.canvas",
     "图谱/k8s.canvas",
     "图谱/os/硬盘.canvas",
