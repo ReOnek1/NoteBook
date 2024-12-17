@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note/network/linux网络/流量控制（TC）.md",
+                "file": "Note/network/linux网络/TCP-IP协议.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Note/network/linux网络/流量控制（TC）.md",
+                "file": "Note/network/linux网络/TCP-IP协议.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Note/network/linux网络/流量控制（TC）.md",
+                "file": "Note/network/linux网络/TCP-IP协议.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Note/network/linux网络/流量控制（TC）.md"
+                "file": "Note/network/linux网络/TCP-IP协议.md"
               }
             }
           },
@@ -189,7 +189,7 @@
   "active": "2edc90d69615c873",
   "lastOpenFiles": [
     "Note/network/linux网络/tcp三次握手.md",
-    "Note/network/linux网络/流量控制（TC）.md",
+    "Note/network/linux网络/TCP-IP协议.md",
     "Note/内存/page cache.md",
     "pic/Pasted image 20241126170508.png",
     "pic/Pasted image 20241126163121.png",
